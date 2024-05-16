@@ -34,8 +34,7 @@ int main()
         cin >> row;
         cout << "Player " << player << ", enter column number (0-2): ";
         cin >> column;
-
-        // Validate move
+        
         if(row < 0 || row >= 3 || column < 0 || column >= 3 || board[row][column] != '#')
         {
             cout << "Invalid move, try again." << endl;
@@ -47,7 +46,6 @@ int main()
             board[row][column] = player;
         }
 
-        // Check for a winner
         for(int j=0; j<3; j++)
         {
             if(board[j][0] == player && board[j][1] == player && board[j][2] == player)
