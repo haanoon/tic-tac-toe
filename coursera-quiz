@@ -1,0 +1,156 @@
+1.
+Question 1
+To check if a variable is equal to some number, which conditional operator do we use:
+
+1 / 1 point
+
+<
+
+
+==
+
+
+>
+
+
+=
+
+Correct
+Correct. We use 2 equal symbols to compare two things, as for 1 equal sign is used to assign a value to a variable.
+
+2.
+Question 2
+If we have two variables X and Y, and we wanted to create an if statement that checks if X is equal to 1 and Y is equal to 2 and both statements need to be true to execute some code, we do:
+
+1 / 1 point
+
+if(X == 1 && Y == 2)
+
+
+if(X == 1 & Y == 2)
+
+
+if(X == 1 || Y == 2)
+
+Correct
+Correct. && is used to check whether 2 statements or more are correct or not, and if at least one of them is false, then the entire condition is false.
+
+3.
+Question 3
+A Data Type that only takes two values whether 0(False) or 1(True) is called:
+
+1 / 1 point
+
+int
+
+
+bool
+
+
+char
+
+Correct
+Correct. bool is short for Boolean which accepts only two values.
+
+4.
+Question 4
+Which of the following increments the variable X by 1 (select all that apply):
+
+0.75 / 1 point
+
+X + 1
+
+
+X = X + 1
+
+Correct
+Correct. This takes the value of X and adds 1 to it.
+
+
+X += 1;
+
+
+X++;
+
+Correct
+Correct. This takes the value of X and adds 1 to it.
+
+You didn’t select all the correct answers
+5.
+Question 5
+If we wanted the loop to execute at least once even if the condition will never be true, we use:
+
+1 / 1 point
+
+For loop
+
+
+While loop
+
+
+Do While loop
+
+Correct
+Correct. The Do While loop will always execute the body of the loop first then check the condition second.
+
+6.
+Question 6
+To stop the loop from going, even when the condition is true, we use:
+
+1 / 1 point
+
+stop;
+
+
+continue;
+
+
+break;
+
+Correct
+Correct. The Break statement forces the loop to stop.
+
+7.
+Question 7
+The first element of any is at index 0:
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Correct. In C++ the first element of the array will always be at index 0.
+
+8.
+Question 8
+A Two-dimensional Array is an array of arrays:
+
+1 / 1 point
+
+True
+
+
+False
+
+Correct
+Correct. Each element of a Two-dimensional array is itself an array.
+
+9.
+Question 9
+To clear the console screen we use:
+
+1 / 1 point
+
+system(“cls”);
+
+
+clear;
+
+
+restart;
+
+Correct
+Correct. This command clears the entire console screen, cls is short for "clear screen"
